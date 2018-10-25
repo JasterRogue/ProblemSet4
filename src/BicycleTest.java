@@ -4,7 +4,7 @@ import java.awt.*;
 public class BicycleTest {
     public static void main(String[] args)
     {
-        BicycleFrame2 bicycleFrame = new BicycleFrame2();
+        BicycleFrame bicycleFrame = new BicycleFrame();
         bicycleFrame.setVisible(true);
         ImageIcon bikeIcon = new ImageIcon("bike.PNG");
         bicycleFrame.setIconImage(bikeIcon.getImage());
